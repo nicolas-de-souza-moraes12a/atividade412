@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --black: #000;
+    --white: #FFF;
+    --orange: #f59e42;
+    --blue: #42b0f5;
+    --red: #f54242;
+}
+
+header {
+    border: 1px solid;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 18.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bleach {
+    width: 300px;
+    margin-left: 1rem;
+}
